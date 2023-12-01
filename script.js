@@ -90,10 +90,10 @@ console.log("-- Oppgave 6 --");
 const nums = [1, 2, 3, 4, 5];
 const nums2 = [4321, 43, 2, 897698, 321, 87];
 
-function logOddOfArray(arr) {
+function logEvenOfArray(arr) {
   let oddNumbers = arr.filter((element) => element % 2 !== 0);
   console.log(oddNumbers);
 }
 
-logOddOfArray(nums); // Output: [1, 3, 5]
-logOddOfArray(nums2); // Output: [4321, 43, 897698, 321, 87]
+logEvenOfArray(nums);
+logEvenOfArray(nums2);
