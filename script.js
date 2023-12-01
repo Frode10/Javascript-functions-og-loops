@@ -84,3 +84,16 @@ let array = [1, 2, 3, 4];
 
 let arrowFunction = array.map((e) => e * 2);
 console.log(arrowFunction);
+
+console.log("-- Oppgave 6 --");
+
+const nums = [1, 2, 3, 4, 5];
+const nums2 = [4321, 43, 2, 897698, 321, 87];
+
+function logOddOfArray(arr) {
+  let oddNumbers = arr.filter((element) => element % 2 !== 0);
+  console.log(oddNumbers);
+}
+
+logOddOfArray(nums); // Output: [1, 3, 5]
+logOddOfArray(nums2); // Output: [4321, 43, 897698, 321, 87]
